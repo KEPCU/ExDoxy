@@ -1,0 +1,15 @@
+E:\C#\UNI\ExDoxy\bin\Debug\net6.0\ExDoxy.exe
+E:\C#\UNI\ExDoxy\bin\Debug\net6.0\ExDoxy.deps.json
+E:\C#\UNI\ExDoxy\bin\Debug\net6.0\ExDoxy.runtimeconfig.json
+E:\C#\UNI\ExDoxy\bin\Debug\net6.0\ExDoxy.dll
+E:\C#\UNI\ExDoxy\bin\Debug\net6.0\ExDoxy.pdb
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\ExDoxy.csproj.AssemblyReference.cache
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\ExDoxy.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\ExDoxy.AssemblyInfoInputs.cache
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\ExDoxy.AssemblyInfo.cs
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\ExDoxy.csproj.CoreCompileInputs.cache
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\ExDoxy.dll
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\refint\ExDoxy.dll
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\ExDoxy.pdb
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\ExDoxy.genruntimeconfig.cache
+E:\C#\UNI\ExDoxy\obj\Debug\net6.0\ref\ExDoxy.dll

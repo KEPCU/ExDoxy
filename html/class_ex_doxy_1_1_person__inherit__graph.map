@@ -1,0 +1,9 @@
+<map id="ExDoxy.Person" name="ExDoxy.Person">
+<area shape="rect" id="node1" title=" " alt="" coords="192,5,305,32"/>
+<area shape="rect" id="node2" href="$class_ex_doxy_1_1_student.html" title=" " alt="" coords="121,80,238,107"/>
+<area shape="rect" id="node3" href="$class_ex_doxy_1_1_worker.html" title=" " alt="" coords="262,80,377,107"/>
+<area shape="rect" id="node4" href="$class_ex_doxy_1_1_administrative.html" title=" " alt="" coords="5,155,159,181"/>
+<area shape="rect" id="node5" href="$class_ex_doxy_1_1_concierge.html" title=" " alt="" coords="183,155,314,181"/>
+<area shape="rect" id="node6" href="$class_ex_doxy_1_1_dean.html" title=" " alt="" coords="339,155,441,181"/>
+<area shape="rect" id="node7" href="$class_ex_doxy_1_1_teacher.html" title=" " alt="" coords="465,155,584,181"/>
+</map>
