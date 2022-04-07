@@ -1,13 +1,13 @@
 var indexSectionsWithContent =
 {
-  0: ".acdeinpqstuw",
-  1: "acdpstuw",
+  0: "acdeimnpqrstuw",
+  1: "acdprstuw",
   2: "e",
-  3: ".ep",
-  4: "acdqst",
+  3: "acdqrstu",
+  4: "ms",
   5: "e",
   6: "cd",
-  7: "cdinqstw"
+  7: "acdeinpqstw"
 };
 
 var indexSectionNames =
@@ -15,8 +15,8 @@ var indexSectionNames =
   0: "all",
   1: "classes",
   2: "namespaces",
-  3: "files",
-  4: "functions",
+  3: "functions",
+  4: "variables",
   5: "enums",
   6: "enumvalues",
   7: "properties"
@@ -27,8 +27,8 @@ var indexSectionLabels =
   0: "All",
   1: "Classes",
   2: "Namespaces",
-  3: "Files",
-  4: "Functions",
+  3: "Functions",
+  4: "Variables",
   5: "Enumerations",
   6: "Enumerator",
   7: "Properties"

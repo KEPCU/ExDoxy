@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['worker_0',['Worker',['../class_ex_doxy_1_1_worker.html',1,'ExDoxy']]],
-  ['workers_1',['Workers',['../class_ex_doxy_1_1_university.html#a8909d3d3c4c515be7f936a8e1aa6df9d',1,'ExDoxy::University']]]
+  ['university_0',['University',['../class_ex_doxy_1_1_university.html',1,'ExDoxy']]],
+  ['updatesyllabus_1',['UpdateSyllabus',['../class_ex_doxy_1_1_curse.html#a8a5f431f0f4cf22b3aa263dc3f613361',1,'ExDoxy::Curse']]]
 ];

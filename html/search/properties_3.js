@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name_0',['Name',['../class_ex_doxy_1_1_person.html#a4f0b940c5cc5758cb1e286b6b3021780',1,'ExDoxy.Person.Name()'],['../class_ex_doxy_1_1_university.html#a4b1083b3cb0872c6fe00c85fe5f6a18b',1,'ExDoxy.University.Name()'],['../class_ex_doxy_1_1_career.html#a3924180046bf2fd00ad86293b87e10c7',1,'ExDoxy.Career.Name()'],['../class_ex_doxy_1_1_curse.html#aac36f865b801eb7dc0c1bac582cd085a',1,'ExDoxy.Curse.Name()']]]
+  ['email_0',['Email',['../class_ex_doxy_1_1_student.html#a1a23884c8916d0aeea04d2547f367230',1,'ExDoxy.Student.Email()'],['../class_ex_doxy_1_1_rector.html#a86affc8402c468958c5e41d59a9edd38',1,'ExDoxy.Rector.Email()'],['../class_ex_doxy_1_1_dean.html#af5268030d0ab3272b643dd9becd8bf20',1,'ExDoxy.Dean.Email()'],['../class_ex_doxy_1_1_teacher.html#a43c5ca09ff180eb1b1fd548525009132',1,'ExDoxy.Teacher.Email()'],['../class_ex_doxy_1_1_administrative.html#a581cc0ac01b6623b6b5e3e0648c642ef',1,'ExDoxy.Administrative.Email()']]]
 ];

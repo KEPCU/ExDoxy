@@ -10,7 +10,6 @@ namespace ExDoxy {
     public class Worker : Person
     {
         public double Salary { get; set;} = 0.0;
-        public int DNI { get; private set;} = 10000000;
     }
 
     public class University
@@ -72,8 +71,19 @@ namespace ExDoxy {
         }
     }
 
+    public class Syllabus
+    {
+        public string Title { get; set;} = "";
+        public string Authors { get; set;} = "";
+        public string Partners { get; set;} = "";
+        public DateTime Data { get; set;} = "";
+        public List<string> Partners { get; set;} = new List<string>();
+    }
+
     public class Curse
     {
+        Syllabus Syllabus;
+        public double Credits { get; set;} = 0.0;
         public string ID { get; private set;} = "";
         public string Name { get; set;} = "";
         public List<Student> Students { get; set;} = new List<Student>();
@@ -82,34 +92,59 @@ namespace ExDoxy {
         public void AddStudent (Student newStudent) {
             Students.Add(newStudent);
         } 
+
+        public void UpdateSyllabus (Syllabus newSyllabus) {
+            Syllabus = newSyllabus;
+        } 
     }
 
     public class Student : Person
     {
         public double Qualify { get; set;} = 0.0;
+        public double Credits { get; set;} = 0.0;
+        public string Email { get; set;} = "example@uni.edu.co";
+        public List<string> ApprovedCourses { get; set;} = new List<string>();
+        public List<string> DisapprovedCourses { get; set;} = new List<string>();
+        public List<string> PendingCourses { get; set;} = new List<string>();
 
-        public Student (string name, int dni) {
+        public Student (string name, int dni, string email) {
             Name = name;
             DNI = dni;
+            Email = email;
+        }
+    }
+
+    public class Rector : Worker
+    {
+        public string Email { get; set;} = "example@uni.edu.co";
+        public Rector (string name, int dni, string email) {
+            Name = name;
+            DNI = dni;
+            Email = email;
         }
     }
 
     public class Dean : Worker
     {
-        public Dean (string name, int dni) {
+        string MySschool = "";;
+        public string Email { get; set;} = "example@uni.edu.co";
+        public Dean (string name, int dni, string email) {
             Name = name;
             DNI = dni;
+            Email = email;
         }
     }
 
     public class Teacher : Worker
     {
-        public Teacher (string name, int dni) {
+        public string Email { get; set;} = "example@uni.edu.co";
+        public List<Curse> Curses { get; set;} = new List<Curse>();
+        public Teacher (string name, int dni, string email) {
             Name = name;
             DNI = dni;
+            Email = email;
         }
-        public List<Curse> Curses { get; set;} = new List<Curse>();
-
+    
         public Student Qualify(Student myStudent) {
             Console.WriteLine("enter qualification: ");
             double qualify = double.Parse(Console.ReadLine());
@@ -120,9 +155,12 @@ namespace ExDoxy {
 
     public class Administrative : Worker
     {
-        public Administrative (string name, int dni) {
+        public string Email { get; set;} = "example@uni.edu.co";
+
+        public Administrative (string name, int dni, string email) {
             Name = name;
             DNI = dni;
+            Email = email;
         }
     }
 
@@ -133,13 +171,5 @@ namespace ExDoxy {
             DNI = dni;
         }
     }
-    
-    /*
-    class Program {
-        static void Main(string[] args){
-            Student studentOne = new Student("Sony", 65478932);
-        }
-    }
-    */
 } 
 
