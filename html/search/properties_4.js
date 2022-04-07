@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qualify_0',['Qualify',['../class_ex_doxy_1_1_student.html#a2ccfc74925bf7b6e248ce0610405902c',1,'ExDoxy::Student']]]
+  ['id_0',['ID',['../class_ex_doxy_1_1_curse.html#a0839bfa7b44192a548feb2cf663bdb3a',1,'ExDoxy::Curse']]]
 ];
