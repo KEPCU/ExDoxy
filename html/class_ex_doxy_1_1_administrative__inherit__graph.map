@@ -1,5 +1,5 @@
 <map id="ExDoxy.Administrative" name="ExDoxy.Administrative">
 <area shape="rect" id="node1" title=" " alt="" coords="5,271,159,377"/>
-<area shape="rect" id="node2" href="$class_ex_doxy_1_1_worker.html" title=" " alt="" coords="25,145,139,223"/>
-<area shape="rect" id="node3" href="$class_ex_doxy_1_1_person.html" title=" " alt="" coords="30,5,134,97"/>
+<area shape="rect" id="node2" href="$class_ex_doxy_1_1_worker.html" title="Basic class for teachers, administrative staff, cleaning, security, dean, etc." alt="" coords="25,145,139,223"/>
+<area shape="rect" id="node3" href="$class_ex_doxy_1_1_person.html" title="Base class for student and worker class." alt="" coords="30,5,134,97"/>
 </map>
