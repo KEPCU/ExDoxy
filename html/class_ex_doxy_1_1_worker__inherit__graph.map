@@ -1,9 +1,9 @@
 <map id="ExDoxy.Worker" name="ExDoxy.Worker">
-<area shape="rect" id="node1" title=" " alt="" coords="389,145,503,223"/>
+<area shape="rect" id="node1" title="Basic class for teachers, administrative staff, cleaning, security, dean, etc." alt="" coords="389,145,503,223"/>
 <area shape="rect" id="node3" href="$class_ex_doxy_1_1_administrative.html" title=" " alt="" coords="5,285,159,392"/>
-<area shape="rect" id="node4" href="$class_ex_doxy_1_1_concierge.html" title=" " alt="" coords="183,293,351,385"/>
+<area shape="rect" id="node4" href="$class_ex_doxy_1_1_concierge.html" title="Cleaning staff, security, etc." alt="" coords="183,293,351,385"/>
 <area shape="rect" id="node5" href="$class_ex_doxy_1_1_dean.html" title=" " alt="" coords="376,285,516,392"/>
 <area shape="rect" id="node6" href="$class_ex_doxy_1_1_rector.html" title=" " alt="" coords="540,293,688,385"/>
 <area shape="rect" id="node7" href="$class_ex_doxy_1_1_teacher.html" title=" " alt="" coords="712,271,884,407"/>
-<area shape="rect" id="node2" href="$class_ex_doxy_1_1_person.html" title=" " alt="" coords="394,5,498,97"/>
+<area shape="rect" id="node2" href="$class_ex_doxy_1_1_person.html" title="Base class for student and worker class." alt="" coords="394,5,498,97"/>
 </map>

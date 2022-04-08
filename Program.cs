@@ -1,33 +1,35 @@
 ﻿using System;
 
 namespace ExDoxy {
+    ///Base class for student and worker class
     public class Person
     {
         public string Name { get; private set;} = "";
-        public int DNI { get; private set;} = 10000000;
+        int DNI { get; private set;} = 10000000;
     }
 
+    /// Basic class for teachers, administrative staff, cleaning, security, dean, etc.
     public class Worker : Person
     {
-        public double Salary { get; set;} = 0.0;
+        double Salary { get; set;} = 800.0;
     }
 
     public class University
     {
         public string Name { get; set;} = "";
-        public List<Student> Students { get; set;} = new List<Student>();
+        List<Student> Students { get; set;} = new List<Student>();
         public List<Worker> Workers { get; set;} = new List<Worker>();
         public List<Career> Careers { get; set;} = new List<Career>();
 
-        public void AddStudent (Student newStudent) {
+        void AddStudent (Student newStudent) {
             Students.Add(newStudent);
         } 
 
-        public void AddWorker(Worker newWorker) {
+        void AddWorker(Worker newWorker) {
             Workers.Add(newWorker);
         } 
 
-        public void AddCareer (Career newCareer) {
+        void AddCareer (Career newCareer) {
             Careers.Add(myStudent);
         } 
     }
@@ -35,11 +37,12 @@ namespace ExDoxy {
     public class Career
     {
         public string Name { get; set;} = "";
-        public List<Student> Students { get; set;} = new List<Student>();
+        List<Student> Students { get; set;} = new List<Student>();
         public List<Teacher> Teachers { get; set;} = new List<Teacher>();
         public List<Curse> Curses { get; set;} = new List<Curse>();
 
-        public void AddStudent (Student newStudent, Enrollment type) {
+        ///To add a student, it is taken into account if he will take all the courses or not.
+        void AddStudent (Student newStudent, Enrollment type) {
             Students.Add(newStudent);
             
             switch (type) {
@@ -63,6 +66,7 @@ namespace ExDoxy {
                 }
         } 
 
+        ///Enum for determine the type of enrollment and enrollment in courses
         public enum Enrollment
         {
             Default,
@@ -84,28 +88,28 @@ namespace ExDoxy {
     {
         Syllabus Syllabus;
         public double Credits { get; set;} = 0.0;
-        public string ID { get; private set;} = "";
+        string ID { get; private set;} = "";
         public string Name { get; set;} = "";
-        public List<Student> Students { get; set;} = new List<Student>();
+        List<Student> Students { get; set;} = new List<Student>();
         public Teacher Teacher { get; set;} = new Teacher();
 
-        public void AddStudent (Student newStudent) {
+        void AddStudent (Student newStudent) {
             Students.Add(newStudent);
         } 
 
-        public void UpdateSyllabus (Syllabus newSyllabus) {
+        void UpdateSyllabus (Syllabus newSyllabus) {
             Syllabus = newSyllabus;
         } 
     }
 
     public class Student : Person
     {
-        public double Qualify { get; set;} = 0.0;
+        double Qualify { get; set;} = 0.0;
         public double Credits { get; set;} = 0.0;
         public string Email { get; set;} = "example@uni.edu.co";
-        public List<string> ApprovedCourses { get; set;} = new List<string>();
-        public List<string> DisapprovedCourses { get; set;} = new List<string>();
-        public List<string> PendingCourses { get; set;} = new List<string>();
+        List<string> ApprovedCourses { get; set;} = new List<string>();
+        List<string> DisapprovedCourses { get; set;} = new List<string>();
+        List<string> PendingCourses { get; set;} = new List<string>();
 
         public Student (string name, int dni, string email) {
             Name = name;
@@ -164,6 +168,7 @@ namespace ExDoxy {
         }
     }
 
+    ///Cleaning staff, security, etc.
     public class Concierge : Worker
     {
         public Concierge (string name, int dni) {

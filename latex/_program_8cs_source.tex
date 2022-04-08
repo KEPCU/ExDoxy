@@ -4,177 +4,177 @@
 \DoxyCodeLine{\Hypertarget{_program_8cs_source_l00001}00001 \textcolor{keyword}{using} System;}
 \DoxyCodeLine{\Hypertarget{_program_8cs_source_l00002}00002 }
 \DoxyCodeLine{\Hypertarget{_program_8cs_source_l00003}\mbox{\hyperlink{namespace_ex_doxy}{00003}} \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_ex_doxy}{ExDoxy}} \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00004}\mbox{\hyperlink{class_ex_doxy_1_1_person}{00004}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_person}{Person}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00005}00005     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00006}\mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{00006}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00007}\mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{00007}}         \textcolor{keyword}{public} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set};\} = 10000000;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00008}00008     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00009}00009 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00010}\mbox{\hyperlink{class_ex_doxy_1_1_worker}{00010}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}} : \mbox{\hyperlink{class_ex_doxy_1_1_person}{Person}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00011}00011     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00012}\mbox{\hyperlink{class_ex_doxy_1_1_worker_ac6a41ae8d29804a06d255e5431a69298}{00012}}         \textcolor{keyword}{public} \textcolor{keywordtype}{double} \mbox{\hyperlink{class_ex_doxy_1_1_worker_ac6a41ae8d29804a06d255e5431a69298}{Salary}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = 0.0;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00013}00013     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00014}00014 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00015}\mbox{\hyperlink{class_ex_doxy_1_1_university}{00015}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_university}{University}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00016}00016     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00017}\mbox{\hyperlink{class_ex_doxy_1_1_university_a4b1083b3cb0872c6fe00c85fe5f6a18b}{00017}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_university_a4b1083b3cb0872c6fe00c85fe5f6a18b}{Name}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00018}\mbox{\hyperlink{class_ex_doxy_1_1_university_aa9a39e99fd506f3a94ec4d51e368bf6b}{00018}}         \textcolor{keyword}{public} List<Student> \mbox{\hyperlink{class_ex_doxy_1_1_university_aa9a39e99fd506f3a94ec4d51e368bf6b}{Students}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Student>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00019}\mbox{\hyperlink{class_ex_doxy_1_1_university_a8909d3d3c4c515be7f936a8e1aa6df9d}{00019}}         \textcolor{keyword}{public} List<Worker> \mbox{\hyperlink{class_ex_doxy_1_1_university_a8909d3d3c4c515be7f936a8e1aa6df9d}{Workers}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Worker>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00020}\mbox{\hyperlink{class_ex_doxy_1_1_university_a2f9ab2055bb9d37a277a2a722ee19ffc}{00020}}         \textcolor{keyword}{public} List<Career> \mbox{\hyperlink{class_ex_doxy_1_1_university_a2f9ab2055bb9d37a277a2a722ee19ffc}{Careers}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Career>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00021}00021 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00022}\mbox{\hyperlink{class_ex_doxy_1_1_university_ab0886d5d6b4631fd0558c1f98902ab37}{00022}}         \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_university_ab0886d5d6b4631fd0558c1f98902ab37}{AddStudent}} (\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} newStudent) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00023}00023             \mbox{\hyperlink{class_ex_doxy_1_1_university_aa9a39e99fd506f3a94ec4d51e368bf6b}{Students}}.Add(newStudent);}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00024}00024         \} }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00025}00025 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00026}\mbox{\hyperlink{class_ex_doxy_1_1_university_a6303f4ff119f7a8f4195406ee6ea2d8c}{00026}}         \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_university_a6303f4ff119f7a8f4195406ee6ea2d8c}{AddWorker}}(\mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}} newWorker) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00027}00027             \mbox{\hyperlink{class_ex_doxy_1_1_university_a8909d3d3c4c515be7f936a8e1aa6df9d}{Workers}}.Add(newWorker);}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00028}00028         \} }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00029}00029 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00030}\mbox{\hyperlink{class_ex_doxy_1_1_university_a22a9412e2de87b16997e10cf14c2dabc}{00030}}         \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_university_a22a9412e2de87b16997e10cf14c2dabc}{AddCareer}} (\mbox{\hyperlink{class_ex_doxy_1_1_career}{Career}} newCareer) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00031}00031             \mbox{\hyperlink{class_ex_doxy_1_1_university_a2f9ab2055bb9d37a277a2a722ee19ffc}{Careers}}.Add(myStudent);}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00032}00032         \} }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00033}00033     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00034}00034 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00035}\mbox{\hyperlink{class_ex_doxy_1_1_career}{00035}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_career}{Career}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00036}00036     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00037}\mbox{\hyperlink{class_ex_doxy_1_1_career_a3924180046bf2fd00ad86293b87e10c7}{00037}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_career_a3924180046bf2fd00ad86293b87e10c7}{Name}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00038}\mbox{\hyperlink{class_ex_doxy_1_1_career_a0dadb0bb961dbf20765a8627cc139c7e}{00038}}         \textcolor{keyword}{public} List<Student> \mbox{\hyperlink{class_ex_doxy_1_1_career_a0dadb0bb961dbf20765a8627cc139c7e}{Students}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Student>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00039}\mbox{\hyperlink{class_ex_doxy_1_1_career_a84abebb9862d5c310bc5fa009dcb335e}{00039}}         \textcolor{keyword}{public} List<Teacher> \mbox{\hyperlink{class_ex_doxy_1_1_career_a84abebb9862d5c310bc5fa009dcb335e}{Teachers}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Teacher>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00040}\mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{00040}}         \textcolor{keyword}{public} List<Curse> \mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{Curses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Curse>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00041}00041 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00042}\mbox{\hyperlink{class_ex_doxy_1_1_career_a40d975dc4df1420311a8f5b6af4576d4}{00042}}         \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_career_a40d975dc4df1420311a8f5b6af4576d4}{AddStudent}} (\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} newStudent, \mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{Enrollment}} type) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00043}00043             \mbox{\hyperlink{class_ex_doxy_1_1_career_a0dadb0bb961dbf20765a8627cc139c7e}{Students}}.Add(newStudent);}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00044}00044             }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00045}00045             \textcolor{keywordflow}{switch} (type) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00046}00046                 \textcolor{keywordflow}{case} \mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{Enrollment}}.Default: }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00047}00047                     \textcolor{keywordflow}{foreach} (var curse \textcolor{keywordflow}{in} \mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{Curses}}) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00048}00048                         curse.AddStudent(newStudent);}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00049}00049                     \} }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00050}00050                     \textcolor{keywordflow}{break};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00051}00051                 \textcolor{keywordflow}{case} \mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{Enrollment}}.Custom: }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00052}00052                     \textcolor{keywordflow}{foreach} (var curse \textcolor{keywordflow}{in} \mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{Curses}}) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00053}00053                         curse.AddStudent(newStudent);}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00054}00054                     \} }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00055}00055                     \textcolor{keywordflow}{break};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00056}00056                 \textcolor{keywordflow}{case} Disapproved: }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00057}00057                     \textcolor{keywordflow}{foreach} (var curse \textcolor{keywordflow}{in} \mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{Curses}}) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00058}00058                         curse.AddStudent(newStudent);}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00059}00059                     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00060}00060                     \textcolor{keywordflow}{break};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00061}00061                 \textcolor{keywordflow}{default}:  }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00062}00062                     \textcolor{keywordflow}{break};  }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00063}00063                 \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00064}00064         \} }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00065}00065 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00066}\mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{00066}}         \textcolor{keyword}{public} \textcolor{keyword}{enum} \mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{Enrollment}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00067}00067         \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00068}00068             Default,}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00069}00069             Custom,}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00070}00070             Disapproved,}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00071}00071         \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00072}00072     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00073}00073 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00074}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{00074}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{Syllabus}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00075}00075     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00076}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a6adfee2eb9a1ada62e2181ec907ad3fb}{00076}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a6adfee2eb9a1ada62e2181ec907ad3fb}{Title}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00077}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a27763225a13bf043dcce3415c5cc3fa3}{00077}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a27763225a13bf043dcce3415c5cc3fa3}{Authors}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00078}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a4996f92158acfb6f932317866132491d}{00078}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a4996f92158acfb6f932317866132491d}{Partners}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00079}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_aa05f127161451c0b21399c4c91d5c6df}{00079}}         \textcolor{keyword}{public} DateTime \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_aa05f127161451c0b21399c4c91d5c6df}{Data}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00080}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a582a2406ac2fa2cc21c1625ea1599b8d}{00080}}         \textcolor{keyword}{public} List<string> \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a4996f92158acfb6f932317866132491d}{Partners}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<string>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00081}00081     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00082}00082 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00083}\mbox{\hyperlink{class_ex_doxy_1_1_curse}{00083}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_curse}{Curse}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00084}00084     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00085}\mbox{\hyperlink{class_ex_doxy_1_1_curse_acb9c6e961e6ab3efbb6a836ffa467861}{00085}}         \mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{Syllabus}} \mbox{\hyperlink{class_ex_doxy_1_1_curse_acb9c6e961e6ab3efbb6a836ffa467861}{Syllabus}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00086}\mbox{\hyperlink{class_ex_doxy_1_1_curse_a48be9b3d4266a10505ce7407c6595980}{00086}}         \textcolor{keyword}{public} \textcolor{keywordtype}{double} \mbox{\hyperlink{class_ex_doxy_1_1_curse_a48be9b3d4266a10505ce7407c6595980}{Credits}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = 0.0;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00087}\mbox{\hyperlink{class_ex_doxy_1_1_curse_a0839bfa7b44192a548feb2cf663bdb3a}{00087}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_curse_a0839bfa7b44192a548feb2cf663bdb3a}{ID}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00088}\mbox{\hyperlink{class_ex_doxy_1_1_curse_aac36f865b801eb7dc0c1bac582cd085a}{00088}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_curse_aac36f865b801eb7dc0c1bac582cd085a}{Name}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00089}\mbox{\hyperlink{class_ex_doxy_1_1_curse_ababc6d5c89559bc47eab5fa566ab7624}{00089}}         \textcolor{keyword}{public} List<Student> \mbox{\hyperlink{class_ex_doxy_1_1_curse_ababc6d5c89559bc47eab5fa566ab7624}{Students}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Student>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00090}\mbox{\hyperlink{class_ex_doxy_1_1_curse_a14244d67cce13699c563269dbade4d2d}{00090}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_teacher}{Teacher}} \mbox{\hyperlink{class_ex_doxy_1_1_teacher}{Teacher}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} \mbox{\hyperlink{class_ex_doxy_1_1_curse_a14244d67cce13699c563269dbade4d2d}{Teacher}}();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00091}00091 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00092}\mbox{\hyperlink{class_ex_doxy_1_1_curse_afb03ba8925f284f38cdd9d40e82914ae}{00092}}         \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_curse_afb03ba8925f284f38cdd9d40e82914ae}{AddStudent}} (\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} newStudent) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00093}00093             \mbox{\hyperlink{class_ex_doxy_1_1_curse_ababc6d5c89559bc47eab5fa566ab7624}{Students}}.Add(newStudent);}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00094}00094         \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00005}\mbox{\hyperlink{class_ex_doxy_1_1_person}{00005}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_person}{Person}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00006}00006     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00007}\mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{00007}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00008}\mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{00008}}         \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set};\} = 10000000;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00009}00009     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00010}00010 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00012}\mbox{\hyperlink{class_ex_doxy_1_1_worker}{00012}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}} : \mbox{\hyperlink{class_ex_doxy_1_1_person}{Person}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00013}00013     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00014}\mbox{\hyperlink{class_ex_doxy_1_1_worker_ac6a41ae8d29804a06d255e5431a69298}{00014}}         \textcolor{keywordtype}{double} \mbox{\hyperlink{class_ex_doxy_1_1_worker_ac6a41ae8d29804a06d255e5431a69298}{Salary}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = 800.0;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00015}00015     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00016}00016 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00017}\mbox{\hyperlink{class_ex_doxy_1_1_university}{00017}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_university}{University}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00018}00018     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00019}\mbox{\hyperlink{class_ex_doxy_1_1_university_a4b1083b3cb0872c6fe00c85fe5f6a18b}{00019}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_university_a4b1083b3cb0872c6fe00c85fe5f6a18b}{Name}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00020}\mbox{\hyperlink{class_ex_doxy_1_1_university_aa9a39e99fd506f3a94ec4d51e368bf6b}{00020}}         List<Student> \mbox{\hyperlink{class_ex_doxy_1_1_university_aa9a39e99fd506f3a94ec4d51e368bf6b}{Students}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Student>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00021}\mbox{\hyperlink{class_ex_doxy_1_1_university_a8909d3d3c4c515be7f936a8e1aa6df9d}{00021}}         \textcolor{keyword}{public} List<Worker> \mbox{\hyperlink{class_ex_doxy_1_1_university_a8909d3d3c4c515be7f936a8e1aa6df9d}{Workers}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Worker>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00022}\mbox{\hyperlink{class_ex_doxy_1_1_university_a2f9ab2055bb9d37a277a2a722ee19ffc}{00022}}         \textcolor{keyword}{public} List<Career> \mbox{\hyperlink{class_ex_doxy_1_1_university_a2f9ab2055bb9d37a277a2a722ee19ffc}{Careers}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Career>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00023}00023 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00024}\mbox{\hyperlink{class_ex_doxy_1_1_university_ab0886d5d6b4631fd0558c1f98902ab37}{00024}}         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_university_ab0886d5d6b4631fd0558c1f98902ab37}{AddStudent}} (\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} newStudent) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00025}00025             \mbox{\hyperlink{class_ex_doxy_1_1_university_aa9a39e99fd506f3a94ec4d51e368bf6b}{Students}}.Add(newStudent);}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00026}00026         \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00027}00027 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00028}\mbox{\hyperlink{class_ex_doxy_1_1_university_a6303f4ff119f7a8f4195406ee6ea2d8c}{00028}}         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_university_a6303f4ff119f7a8f4195406ee6ea2d8c}{AddWorker}}(\mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}} newWorker) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00029}00029             \mbox{\hyperlink{class_ex_doxy_1_1_university_a8909d3d3c4c515be7f936a8e1aa6df9d}{Workers}}.Add(newWorker);}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00030}00030         \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00031}00031 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00032}\mbox{\hyperlink{class_ex_doxy_1_1_university_a22a9412e2de87b16997e10cf14c2dabc}{00032}}         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_university_a22a9412e2de87b16997e10cf14c2dabc}{AddCareer}} (\mbox{\hyperlink{class_ex_doxy_1_1_career}{Career}} newCareer) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00033}00033             \mbox{\hyperlink{class_ex_doxy_1_1_university_a2f9ab2055bb9d37a277a2a722ee19ffc}{Careers}}.Add(myStudent);}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00034}00034         \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00035}00035     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00036}00036 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00037}\mbox{\hyperlink{class_ex_doxy_1_1_career}{00037}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_career}{Career}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00038}00038     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00039}\mbox{\hyperlink{class_ex_doxy_1_1_career_a3924180046bf2fd00ad86293b87e10c7}{00039}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_career_a3924180046bf2fd00ad86293b87e10c7}{Name}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00040}\mbox{\hyperlink{class_ex_doxy_1_1_career_a0dadb0bb961dbf20765a8627cc139c7e}{00040}}         List<Student> \mbox{\hyperlink{class_ex_doxy_1_1_career_a0dadb0bb961dbf20765a8627cc139c7e}{Students}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Student>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00041}\mbox{\hyperlink{class_ex_doxy_1_1_career_a84abebb9862d5c310bc5fa009dcb335e}{00041}}         \textcolor{keyword}{public} List<Teacher> \mbox{\hyperlink{class_ex_doxy_1_1_career_a84abebb9862d5c310bc5fa009dcb335e}{Teachers}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Teacher>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00042}\mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{00042}}         \textcolor{keyword}{public} List<Curse> \mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{Curses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Curse>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00043}00043 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00045}\mbox{\hyperlink{class_ex_doxy_1_1_career_a40d975dc4df1420311a8f5b6af4576d4}{00045}}         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_career_a40d975dc4df1420311a8f5b6af4576d4}{AddStudent}} (\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} newStudent, \mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{Enrollment}} type) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00046}00046             \mbox{\hyperlink{class_ex_doxy_1_1_career_a0dadb0bb961dbf20765a8627cc139c7e}{Students}}.Add(newStudent);}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00047}00047             }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00048}00048             \textcolor{keywordflow}{switch} (type) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00049}00049                 \textcolor{keywordflow}{case} \mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{Enrollment}}.Default: }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00050}00050                     \textcolor{keywordflow}{foreach} (var curse \textcolor{keywordflow}{in} \mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{Curses}}) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00051}00051                         curse.AddStudent(newStudent);}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00052}00052                     \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00053}00053                     \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00054}00054                 \textcolor{keywordflow}{case} \mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{Enrollment}}.Custom: }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00055}00055                     \textcolor{keywordflow}{foreach} (var curse \textcolor{keywordflow}{in} \mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{Curses}}) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00056}00056                         curse.AddStudent(newStudent);}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00057}00057                     \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00058}00058                     \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00059}00059                 \textcolor{keywordflow}{case} Disapproved: }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00060}00060                     \textcolor{keywordflow}{foreach} (var curse \textcolor{keywordflow}{in} \mbox{\hyperlink{class_ex_doxy_1_1_career_a686ae99c3e35ecbdcdc92a4334e398c3}{Curses}}) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00061}00061                         curse.AddStudent(newStudent);}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00062}00062                     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00063}00063                     \textcolor{keywordflow}{break};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00064}00064                 \textcolor{keywordflow}{default}:  }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00065}00065                     \textcolor{keywordflow}{break};  }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00066}00066                 \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00067}00067         \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00068}00068 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00070}\mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{00070}}         \textcolor{keyword}{public} \textcolor{keyword}{enum} \mbox{\hyperlink{class_ex_doxy_1_1_career_add4e5007382f9daf354bfc0a835ca2c2}{Enrollment}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00071}00071         \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00072}00072             Default,}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00073}00073             Custom,}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00074}00074             Disapproved,}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00075}00075         \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00076}00076     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00077}00077 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00078}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{00078}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{Syllabus}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00079}00079     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00080}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a6adfee2eb9a1ada62e2181ec907ad3fb}{00080}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a6adfee2eb9a1ada62e2181ec907ad3fb}{Title}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00081}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a27763225a13bf043dcce3415c5cc3fa3}{00081}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a27763225a13bf043dcce3415c5cc3fa3}{Authors}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00082}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a4996f92158acfb6f932317866132491d}{00082}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a4996f92158acfb6f932317866132491d}{Partners}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00083}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_aa05f127161451c0b21399c4c91d5c6df}{00083}}         \textcolor{keyword}{public} DateTime \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_aa05f127161451c0b21399c4c91d5c6df}{Data}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00084}\mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a582a2406ac2fa2cc21c1625ea1599b8d}{00084}}         \textcolor{keyword}{public} List<string> \mbox{\hyperlink{class_ex_doxy_1_1_syllabus_a4996f92158acfb6f932317866132491d}{Partners}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<string>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00085}00085     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00086}00086 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00087}\mbox{\hyperlink{class_ex_doxy_1_1_curse}{00087}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_curse}{Curse}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00088}00088     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00089}\mbox{\hyperlink{class_ex_doxy_1_1_curse_acb9c6e961e6ab3efbb6a836ffa467861}{00089}}         \mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{Syllabus}} \mbox{\hyperlink{class_ex_doxy_1_1_curse_acb9c6e961e6ab3efbb6a836ffa467861}{Syllabus}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00090}\mbox{\hyperlink{class_ex_doxy_1_1_curse_a48be9b3d4266a10505ce7407c6595980}{00090}}         \textcolor{keyword}{public} \textcolor{keywordtype}{double} \mbox{\hyperlink{class_ex_doxy_1_1_curse_a48be9b3d4266a10505ce7407c6595980}{Credits}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = 0.0;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00091}\mbox{\hyperlink{class_ex_doxy_1_1_curse_a0839bfa7b44192a548feb2cf663bdb3a}{00091}}         \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_curse_a0839bfa7b44192a548feb2cf663bdb3a}{ID}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{private} \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00092}\mbox{\hyperlink{class_ex_doxy_1_1_curse_aac36f865b801eb7dc0c1bac582cd085a}{00092}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_curse_aac36f865b801eb7dc0c1bac582cd085a}{Name}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00093}\mbox{\hyperlink{class_ex_doxy_1_1_curse_ababc6d5c89559bc47eab5fa566ab7624}{00093}}         List<Student> \mbox{\hyperlink{class_ex_doxy_1_1_curse_ababc6d5c89559bc47eab5fa566ab7624}{Students}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Student>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00094}\mbox{\hyperlink{class_ex_doxy_1_1_curse_a14244d67cce13699c563269dbade4d2d}{00094}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_teacher}{Teacher}} \mbox{\hyperlink{class_ex_doxy_1_1_teacher}{Teacher}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} \mbox{\hyperlink{class_ex_doxy_1_1_curse_a14244d67cce13699c563269dbade4d2d}{Teacher}}();}
 \DoxyCodeLine{\Hypertarget{_program_8cs_source_l00095}00095 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00096}\mbox{\hyperlink{class_ex_doxy_1_1_curse_a8a5f431f0f4cf22b3aa263dc3f613361}{00096}}         \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_curse_a8a5f431f0f4cf22b3aa263dc3f613361}{UpdateSyllabus}} (\mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{Syllabus}} newSyllabus) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00097}00097             \mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{Syllabus}} = newSyllabus;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00096}\mbox{\hyperlink{class_ex_doxy_1_1_curse_afb03ba8925f284f38cdd9d40e82914ae}{00096}}         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_curse_afb03ba8925f284f38cdd9d40e82914ae}{AddStudent}} (\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} newStudent) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00097}00097             \mbox{\hyperlink{class_ex_doxy_1_1_curse_ababc6d5c89559bc47eab5fa566ab7624}{Students}}.Add(newStudent);}
 \DoxyCodeLine{\Hypertarget{_program_8cs_source_l00098}00098         \} }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00099}00099     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00100}00100 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00101}\mbox{\hyperlink{class_ex_doxy_1_1_student}{00101}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} : \mbox{\hyperlink{class_ex_doxy_1_1_person}{Person}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00102}00102     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00103}\mbox{\hyperlink{class_ex_doxy_1_1_student_a2ccfc74925bf7b6e248ce0610405902c}{00103}}         \textcolor{keyword}{public} \textcolor{keywordtype}{double} \mbox{\hyperlink{class_ex_doxy_1_1_student_a2ccfc74925bf7b6e248ce0610405902c}{Qualify}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = 0.0;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00104}\mbox{\hyperlink{class_ex_doxy_1_1_student_aed6fa45e66e3c7d98a90f7599c9f39f0}{00104}}         \textcolor{keyword}{public} \textcolor{keywordtype}{double} \mbox{\hyperlink{class_ex_doxy_1_1_student_aed6fa45e66e3c7d98a90f7599c9f39f0}{Credits}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = 0.0;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00105}\mbox{\hyperlink{class_ex_doxy_1_1_student_a1a23884c8916d0aeea04d2547f367230}{00105}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_student_a1a23884c8916d0aeea04d2547f367230}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00106}\mbox{\hyperlink{class_ex_doxy_1_1_student_a09af3581a894409466e5c9e8603434db}{00106}}         \textcolor{keyword}{public} List<string> \mbox{\hyperlink{class_ex_doxy_1_1_student_a09af3581a894409466e5c9e8603434db}{ApprovedCourses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<string>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00107}\mbox{\hyperlink{class_ex_doxy_1_1_student_a5d2e7456bfc46cb02e4b0efb52535237}{00107}}         \textcolor{keyword}{public} List<string> \mbox{\hyperlink{class_ex_doxy_1_1_student_a5d2e7456bfc46cb02e4b0efb52535237}{DisapprovedCourses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<string>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00108}\mbox{\hyperlink{class_ex_doxy_1_1_student_ac84b7d83330dafa2e1a508a9fb5d6f5f}{00108}}         \textcolor{keyword}{public} List<string> \mbox{\hyperlink{class_ex_doxy_1_1_student_ac84b7d83330dafa2e1a508a9fb5d6f5f}{PendingCourses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<string>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00109}00109 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00110}\mbox{\hyperlink{class_ex_doxy_1_1_student_a41ad308f913f87fd961be3b5b9f5b6f2}{00110}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_student_a41ad308f913f87fd961be3b5b9f5b6f2}{Student}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00111}00111             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00112}00112             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00113}00113             \mbox{\hyperlink{class_ex_doxy_1_1_student_a1a23884c8916d0aeea04d2547f367230}{Email}} = email;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00114}00114         \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00115}00115     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00116}00116 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00117}\mbox{\hyperlink{class_ex_doxy_1_1_rector}{00117}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_rector}{Rector}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00118}00118     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00119}\mbox{\hyperlink{class_ex_doxy_1_1_rector_a86affc8402c468958c5e41d59a9edd38}{00119}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_rector_a86affc8402c468958c5e41d59a9edd38}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00120}\mbox{\hyperlink{class_ex_doxy_1_1_rector_a81a9169658a8470d4282a589d5e67f4f}{00120}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_rector_a81a9169658a8470d4282a589d5e67f4f}{Rector}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00121}00121             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00122}00122             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00123}00123             \mbox{\hyperlink{class_ex_doxy_1_1_rector_a86affc8402c468958c5e41d59a9edd38}{Email}} = email;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00124}00124         \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00125}00125     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00126}00126 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00127}\mbox{\hyperlink{class_ex_doxy_1_1_dean}{00127}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_dean}{Dean}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00128}00128     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00129}\mbox{\hyperlink{class_ex_doxy_1_1_dean_a954795b6645ac7aa807075bf50d4006e}{00129}}         \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_dean_a954795b6645ac7aa807075bf50d4006e}{MySschool}} = \textcolor{stringliteral}{"{}"{}};;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00130}\mbox{\hyperlink{class_ex_doxy_1_1_dean_af5268030d0ab3272b643dd9becd8bf20}{00130}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_dean_af5268030d0ab3272b643dd9becd8bf20}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00131}\mbox{\hyperlink{class_ex_doxy_1_1_dean_a67dd0a7969d70421a662324f2fb50d28}{00131}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_dean_a67dd0a7969d70421a662324f2fb50d28}{Dean}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00132}00132             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00133}00133             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00134}00134             \mbox{\hyperlink{class_ex_doxy_1_1_dean_af5268030d0ab3272b643dd9becd8bf20}{Email}} = email;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00135}00135         \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00136}00136     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00137}00137 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00138}\mbox{\hyperlink{class_ex_doxy_1_1_teacher}{00138}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_teacher}{Teacher}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00139}00139     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00140}\mbox{\hyperlink{class_ex_doxy_1_1_teacher_a43c5ca09ff180eb1b1fd548525009132}{00140}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_teacher_a43c5ca09ff180eb1b1fd548525009132}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00141}\mbox{\hyperlink{class_ex_doxy_1_1_teacher_ad921bb1a58eb17b47532877a97a4e31d}{00141}}         \textcolor{keyword}{public} List<Curse> \mbox{\hyperlink{class_ex_doxy_1_1_teacher_ad921bb1a58eb17b47532877a97a4e31d}{Curses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Curse>();}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00142}\mbox{\hyperlink{class_ex_doxy_1_1_teacher_a5d8073e03710d3e1847c7cc0f7993095}{00142}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_teacher_a5d8073e03710d3e1847c7cc0f7993095}{Teacher}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00143}00143             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00144}00144             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00145}00145             \mbox{\hyperlink{class_ex_doxy_1_1_teacher_a43c5ca09ff180eb1b1fd548525009132}{Email}} = email;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00146}00146         \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00147}00147     }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00148}\mbox{\hyperlink{class_ex_doxy_1_1_teacher_a0ae7b47e496c39e738964decc1687448}{00148}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} \mbox{\hyperlink{class_ex_doxy_1_1_teacher_a0ae7b47e496c39e738964decc1687448}{Qualify}}(\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} myStudent) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00149}00149             Console.WriteLine(\textcolor{stringliteral}{"{}enter qualification: "{}});}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00150}00150             \textcolor{keywordtype}{double} qualify = \textcolor{keywordtype}{double}.Parse(Console.ReadLine());}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00151}00151             \mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}}.\mbox{\hyperlink{class_ex_doxy_1_1_student_a2ccfc74925bf7b6e248ce0610405902c}{Qualify}} = qualify;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00152}00152             \textcolor{keywordflow}{return} myStudent;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00153}00153         \} }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00154}00154     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00155}00155 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00156}\mbox{\hyperlink{class_ex_doxy_1_1_administrative}{00156}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_administrative}{Administrative}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00157}00157     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00158}\mbox{\hyperlink{class_ex_doxy_1_1_administrative_a581cc0ac01b6623b6b5e3e0648c642ef}{00158}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_administrative_a581cc0ac01b6623b6b5e3e0648c642ef}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00099}00099 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00100}\mbox{\hyperlink{class_ex_doxy_1_1_curse_a8a5f431f0f4cf22b3aa263dc3f613361}{00100}}         \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ex_doxy_1_1_curse_a8a5f431f0f4cf22b3aa263dc3f613361}{UpdateSyllabus}} (\mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{Syllabus}} newSyllabus) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00101}00101             \mbox{\hyperlink{class_ex_doxy_1_1_syllabus}{Syllabus}} = newSyllabus;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00102}00102         \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00103}00103     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00104}00104 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00105}\mbox{\hyperlink{class_ex_doxy_1_1_student}{00105}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} : \mbox{\hyperlink{class_ex_doxy_1_1_person}{Person}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00106}00106     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00107}\mbox{\hyperlink{class_ex_doxy_1_1_student_a2ccfc74925bf7b6e248ce0610405902c}{00107}}         \textcolor{keywordtype}{double} \mbox{\hyperlink{class_ex_doxy_1_1_student_a2ccfc74925bf7b6e248ce0610405902c}{Qualify}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = 0.0;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00108}\mbox{\hyperlink{class_ex_doxy_1_1_student_aed6fa45e66e3c7d98a90f7599c9f39f0}{00108}}         \textcolor{keyword}{public} \textcolor{keywordtype}{double} \mbox{\hyperlink{class_ex_doxy_1_1_student_aed6fa45e66e3c7d98a90f7599c9f39f0}{Credits}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = 0.0;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00109}\mbox{\hyperlink{class_ex_doxy_1_1_student_a1a23884c8916d0aeea04d2547f367230}{00109}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_student_a1a23884c8916d0aeea04d2547f367230}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00110}\mbox{\hyperlink{class_ex_doxy_1_1_student_a09af3581a894409466e5c9e8603434db}{00110}}         List<string> \mbox{\hyperlink{class_ex_doxy_1_1_student_a09af3581a894409466e5c9e8603434db}{ApprovedCourses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<string>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00111}\mbox{\hyperlink{class_ex_doxy_1_1_student_a5d2e7456bfc46cb02e4b0efb52535237}{00111}}         List<string> \mbox{\hyperlink{class_ex_doxy_1_1_student_a5d2e7456bfc46cb02e4b0efb52535237}{DisapprovedCourses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<string>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00112}\mbox{\hyperlink{class_ex_doxy_1_1_student_ac84b7d83330dafa2e1a508a9fb5d6f5f}{00112}}         List<string> \mbox{\hyperlink{class_ex_doxy_1_1_student_ac84b7d83330dafa2e1a508a9fb5d6f5f}{PendingCourses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<string>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00113}00113 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00114}\mbox{\hyperlink{class_ex_doxy_1_1_student_a41ad308f913f87fd961be3b5b9f5b6f2}{00114}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_student_a41ad308f913f87fd961be3b5b9f5b6f2}{Student}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00115}00115             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00116}00116             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00117}00117             \mbox{\hyperlink{class_ex_doxy_1_1_student_a1a23884c8916d0aeea04d2547f367230}{Email}} = email;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00118}00118         \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00119}00119     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00120}00120 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00121}\mbox{\hyperlink{class_ex_doxy_1_1_rector}{00121}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_rector}{Rector}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00122}00122     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00123}\mbox{\hyperlink{class_ex_doxy_1_1_rector_a86affc8402c468958c5e41d59a9edd38}{00123}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_rector_a86affc8402c468958c5e41d59a9edd38}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00124}\mbox{\hyperlink{class_ex_doxy_1_1_rector_a81a9169658a8470d4282a589d5e67f4f}{00124}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_rector_a81a9169658a8470d4282a589d5e67f4f}{Rector}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00125}00125             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00126}00126             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00127}00127             \mbox{\hyperlink{class_ex_doxy_1_1_rector_a86affc8402c468958c5e41d59a9edd38}{Email}} = email;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00128}00128         \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00129}00129     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00130}00130 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00131}\mbox{\hyperlink{class_ex_doxy_1_1_dean}{00131}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_dean}{Dean}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00132}00132     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00133}\mbox{\hyperlink{class_ex_doxy_1_1_dean_a954795b6645ac7aa807075bf50d4006e}{00133}}         \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_dean_a954795b6645ac7aa807075bf50d4006e}{MySschool}} = \textcolor{stringliteral}{"{}"{}};;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00134}\mbox{\hyperlink{class_ex_doxy_1_1_dean_af5268030d0ab3272b643dd9becd8bf20}{00134}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_dean_af5268030d0ab3272b643dd9becd8bf20}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00135}\mbox{\hyperlink{class_ex_doxy_1_1_dean_a67dd0a7969d70421a662324f2fb50d28}{00135}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_dean_a67dd0a7969d70421a662324f2fb50d28}{Dean}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00136}00136             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00137}00137             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00138}00138             \mbox{\hyperlink{class_ex_doxy_1_1_dean_af5268030d0ab3272b643dd9becd8bf20}{Email}} = email;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00139}00139         \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00140}00140     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00141}00141 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00142}\mbox{\hyperlink{class_ex_doxy_1_1_teacher}{00142}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_teacher}{Teacher}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00143}00143     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00144}\mbox{\hyperlink{class_ex_doxy_1_1_teacher_a43c5ca09ff180eb1b1fd548525009132}{00144}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_teacher_a43c5ca09ff180eb1b1fd548525009132}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00145}\mbox{\hyperlink{class_ex_doxy_1_1_teacher_ad921bb1a58eb17b47532877a97a4e31d}{00145}}         \textcolor{keyword}{public} List<Curse> \mbox{\hyperlink{class_ex_doxy_1_1_teacher_ad921bb1a58eb17b47532877a97a4e31d}{Curses}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{keyword}{new} List<Curse>();}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00146}\mbox{\hyperlink{class_ex_doxy_1_1_teacher_a5d8073e03710d3e1847c7cc0f7993095}{00146}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_teacher_a5d8073e03710d3e1847c7cc0f7993095}{Teacher}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00147}00147             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00148}00148             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00149}00149             \mbox{\hyperlink{class_ex_doxy_1_1_teacher_a43c5ca09ff180eb1b1fd548525009132}{Email}} = email;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00150}00150         \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00151}00151     }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00152}\mbox{\hyperlink{class_ex_doxy_1_1_teacher_a0ae7b47e496c39e738964decc1687448}{00152}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} \mbox{\hyperlink{class_ex_doxy_1_1_teacher_a0ae7b47e496c39e738964decc1687448}{Qualify}}(\mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}} myStudent) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00153}00153             Console.WriteLine(\textcolor{stringliteral}{"{}enter qualification: "{}});}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00154}00154             \textcolor{keywordtype}{double} qualify = \textcolor{keywordtype}{double}.Parse(Console.ReadLine());}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00155}00155             \mbox{\hyperlink{class_ex_doxy_1_1_student}{Student}}.\mbox{\hyperlink{class_ex_doxy_1_1_student_a2ccfc74925bf7b6e248ce0610405902c}{Qualify}} = qualify;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00156}00156             \textcolor{keywordflow}{return} myStudent;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00157}00157         \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00158}00158     \}}
 \DoxyCodeLine{\Hypertarget{_program_8cs_source_l00159}00159 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00160}\mbox{\hyperlink{class_ex_doxy_1_1_administrative_a66ac9b694e616de7d4c2ffcd9c32223c}{00160}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_administrative_a66ac9b694e616de7d4c2ffcd9c32223c}{Administrative}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00161}00161             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00162}00162             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00163}00163             \mbox{\hyperlink{class_ex_doxy_1_1_administrative_a581cc0ac01b6623b6b5e3e0648c642ef}{Email}} = email;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00164}00164         \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00165}00165     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00166}00166 }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00167}\mbox{\hyperlink{class_ex_doxy_1_1_concierge}{00167}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_concierge}{Concierge}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00168}00168     \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00169}\mbox{\hyperlink{class_ex_doxy_1_1_concierge_a9cc3939171179d0f0b897178f3322938}{00169}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_concierge_a9cc3939171179d0f0b897178f3322938}{Concierge}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni) \{}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00170}00170             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00171}00171             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00172}00172         \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00173}00173     \}}
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00174}00174 \} }
-\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00175}00175 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00160}\mbox{\hyperlink{class_ex_doxy_1_1_administrative}{00160}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_administrative}{Administrative}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00161}00161     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00162}\mbox{\hyperlink{class_ex_doxy_1_1_administrative_a581cc0ac01b6623b6b5e3e0648c642ef}{00162}}         \textcolor{keyword}{public} \textcolor{keywordtype}{string} \mbox{\hyperlink{class_ex_doxy_1_1_administrative_a581cc0ac01b6623b6b5e3e0648c642ef}{Email}} \{ \textcolor{keyword}{get}; \textcolor{keyword}{set};\} = \textcolor{stringliteral}{"{}example@uni.edu.co"{}};}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00163}00163 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00164}\mbox{\hyperlink{class_ex_doxy_1_1_administrative_a66ac9b694e616de7d4c2ffcd9c32223c}{00164}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_administrative_a66ac9b694e616de7d4c2ffcd9c32223c}{Administrative}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni, \textcolor{keywordtype}{string} email) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00165}00165             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00166}00166             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00167}00167             \mbox{\hyperlink{class_ex_doxy_1_1_administrative_a581cc0ac01b6623b6b5e3e0648c642ef}{Email}} = email;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00168}00168         \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00169}00169     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00170}00170 }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00172}\mbox{\hyperlink{class_ex_doxy_1_1_concierge}{00172}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_ex_doxy_1_1_concierge}{Concierge}} : \mbox{\hyperlink{class_ex_doxy_1_1_worker}{Worker}}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00173}00173     \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00174}\mbox{\hyperlink{class_ex_doxy_1_1_concierge_a9cc3939171179d0f0b897178f3322938}{00174}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_ex_doxy_1_1_concierge_a9cc3939171179d0f0b897178f3322938}{Concierge}} (\textcolor{keywordtype}{string} name, \textcolor{keywordtype}{int} dni) \{}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00175}00175             \mbox{\hyperlink{class_ex_doxy_1_1_person_a4f0b940c5cc5758cb1e286b6b3021780}{Name}} = name;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00176}00176             \mbox{\hyperlink{class_ex_doxy_1_1_person_a9646bc0e7cf200754f746796da0233de}{DNI}} = dni;}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00177}00177         \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00178}00178     \}}
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00179}00179 \} }
+\DoxyCodeLine{\Hypertarget{_program_8cs_source_l00180}00180 }
 
 \end{DoxyCode}

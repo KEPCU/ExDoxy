@@ -38,7 +38,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'email';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '160';
+      sec-mem-desc-line = '164';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -47,17 +47,17 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a9646bc0e7cf200754f746796da0233de';
-        sec-mem-ref-line = '7';
+        sec-mem-ref-line = '8';
         sec-mem-ref-name = 'ExDoxy.Person::DNI';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a581cc0ac01b6623b6b5e3e0648c642ef';
-        sec-mem-ref-line = '158';
+        sec-mem-ref-line = '162';
         sec-mem-ref-name = 'ExDoxy.Administrative::Email';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a4f0b940c5cc5758cb1e286b6b3021780';
-        sec-mem-ref-line = '6';
+        sec-mem-ref-line = '7';
         sec-mem-ref-name = 'ExDoxy.Person::Name';
     };
     }; /* sec-member */
@@ -77,7 +77,7 @@ _EnD_oF_dEf_TeXt_;
 = "example@uni.edu.co"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '158';
+      sec-mem-desc-line = '162';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -86,13 +86,13 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a66ac9b694e616de7d4c2ffcd9c32223c';
-        sec-mem-ref-line = '160';
+        sec-mem-ref-line = '164';
         sec-mem-ref-name = 'ExDoxy.Administrative::Administrative';
     };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '156';
+  cp-fileline  = '160';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -179,56 +179,13 @@ class = {
       sec-mem-enum = { enum-name = Custom; };
       sec-mem-enum = { enum-name = Disapproved; };
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '66';
+      sec-mem-desc-line = '70';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Enum for determine the type of enrollment and enrollment in courses.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
-    }; /* sec-member */
-  }; /* cp-section */
-  cp-section = {
-    sec-kind = 'public-func';
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'class_ex_doxy_1_1_career_1a40d975dc4df1420311a8f5b6af4576d4';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'AddStudent';
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-Student
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'newStudent';
-      }; /*        sec-mem-param--param */
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-Enrollment
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'type';
-      }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '42';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_program_8cs_1a686ae99c3e35ecbdcdc92a4334e398c3';
-        sec-mem-ref-line = '40';
-        sec-mem-ref-name = 'ExDoxy.Career::Curses';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_program_8cs_1a0dadb0bb961dbf20765a8627cc139c7e';
-        sec-mem-ref-line = '38';
-        sec-mem-ref-name = 'ExDoxy.Career::Students';
-    };
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -246,7 +203,7 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '37';
+      sec-mem-desc-line = '39';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -258,7 +215,7 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-kind = 'property';
       sec-mem-id   = 'class_ex_doxy_1_1_career_1a0dadb0bb961dbf20765a8627cc139c7e';
       sec-mem-virt = normal;
-      sec-mem-prot = public;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 List< Student >
 _EnD_oF_dEf_TeXt_;
@@ -267,7 +224,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<Student>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '38';
+      sec-mem-desc-line = '40';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -276,7 +233,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a40d975dc4df1420311a8f5b6af4576d4';
-        sec-mem-ref-line = '42';
+        sec-mem-ref-line = '45';
         sec-mem-ref-name = 'ExDoxy.Career::AddStudent';
     };
     }; /* sec-member */
@@ -293,7 +250,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<Teacher>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '39';
+      sec-mem-desc-line = '41';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -314,7 +271,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<Curse>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '40';
+      sec-mem-desc-line = '42';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -323,13 +280,56 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a40d975dc4df1420311a8f5b6af4576d4';
-        sec-mem-ref-line = '42';
+        sec-mem-ref-line = '45';
         sec-mem-ref-name = 'ExDoxy.Career::AddStudent';
     };
     }; /* sec-member */
   }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_ex_doxy_1_1_career_1a40d975dc4df1420311a8f5b6af4576d4';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'AddStudent';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Student
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'newStudent';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Enrollment
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'type';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
+      sec-mem-desc-line = '45';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+To add a student, it is taken into account if he will take all the courses or not.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_program_8cs_1a686ae99c3e35ecbdcdc92a4334e398c3';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'ExDoxy.Career::Curses';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_program_8cs_1a0dadb0bb961dbf20765a8627cc139c7e';
+        sec-mem-ref-line = '40';
+        sec-mem-ref-name = 'ExDoxy.Career::Students';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '35';
+  cp-fileline  = '37';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -380,7 +380,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'dni';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '169';
+      sec-mem-desc-line = '174';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -389,20 +389,20 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a9646bc0e7cf200754f746796da0233de';
-        sec-mem-ref-line = '7';
+        sec-mem-ref-line = '8';
         sec-mem-ref-name = 'ExDoxy.Person::DNI';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a4f0b940c5cc5758cb1e286b6b3021780';
-        sec-mem-ref-line = '6';
+        sec-mem-ref-line = '7';
         sec-mem-ref-name = 'ExDoxy.Person::Name';
     };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '167';
+  cp-fileline  = '172';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+Cleaning staff, security, etc.
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -476,62 +476,6 @@ class = {
   cp-id     = 'class_ex_doxy_1_1_curse';
   cp-name   = 'ExDoxy::Curse';
   cp-section = {
-    sec-kind = 'public-func';
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'class_ex_doxy_1_1_curse_1afb03ba8925f284f38cdd9d40e82914ae';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'AddStudent';
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-Student
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'newStudent';
-      }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '92';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_program_8cs_1ababc6d5c89559bc47eab5fa566ab7624';
-        sec-mem-ref-line = '89';
-        sec-mem-ref-name = 'ExDoxy.Curse::Students';
-    };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'class_ex_doxy_1_1_curse_1a8a5f431f0f4cf22b3aa263dc3f613361';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'UpdateSyllabus';
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-Syllabus
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'newSyllabus';
-      }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '96';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* sec-member */
-  }; /* cp-section */
-  cp-section = {
     sec-kind = 'property';
     sec-member = {
       sec-mem-kind = 'property';
@@ -546,7 +490,7 @@ _EnD_oF_dEf_TeXt_;
 = 0.0
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '86';
+      sec-mem-desc-line = '90';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -558,7 +502,7 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-kind = 'property';
       sec-mem-id   = 'class_ex_doxy_1_1_curse_1a0839bfa7b44192a548feb2cf663bdb3a';
       sec-mem-virt = normal;
-      sec-mem-prot = public;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 string
 _EnD_oF_dEf_TeXt_;
@@ -567,7 +511,7 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '87';
+      sec-mem-desc-line = '91';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -588,7 +532,7 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '88';
+      sec-mem-desc-line = '92';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -600,7 +544,7 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-kind = 'property';
       sec-mem-id   = 'class_ex_doxy_1_1_curse_1ababc6d5c89559bc47eab5fa566ab7624';
       sec-mem-virt = normal;
-      sec-mem-prot = public;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 List< Student >
 _EnD_oF_dEf_TeXt_;
@@ -609,7 +553,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<Student>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '89';
+      sec-mem-desc-line = '93';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -618,7 +562,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1afb03ba8925f284f38cdd9d40e82914ae';
-        sec-mem-ref-line = '92';
+        sec-mem-ref-line = '96';
         sec-mem-ref-name = 'ExDoxy.Curse::AddStudent';
     };
     }; /* sec-member */
@@ -635,7 +579,63 @@ _EnD_oF_dEf_TeXt_;
 = new Teacher()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '90';
+      sec-mem-desc-line = '94';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_ex_doxy_1_1_curse_1afb03ba8925f284f38cdd9d40e82914ae';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'AddStudent';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Student
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'newStudent';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
+      sec-mem-desc-line = '96';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_program_8cs_1ababc6d5c89559bc47eab5fa566ab7624';
+        sec-mem-ref-line = '93';
+        sec-mem-ref-name = 'ExDoxy.Curse::Students';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_ex_doxy_1_1_curse_1a8a5f431f0f4cf22b3aa263dc3f613361';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'UpdateSyllabus';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Syllabus
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'newSyllabus';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
+      sec-mem-desc-line = '100';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -656,7 +656,7 @@ Syllabus
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'Syllabus';
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '85';
+      sec-mem-desc-line = '89';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -666,7 +666,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '83';
+  cp-fileline  = '87';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -737,7 +737,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'email';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '131';
+      sec-mem-desc-line = '135';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -746,17 +746,17 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a9646bc0e7cf200754f746796da0233de';
-        sec-mem-ref-line = '7';
+        sec-mem-ref-line = '8';
         sec-mem-ref-name = 'ExDoxy.Person::DNI';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1af5268030d0ab3272b643dd9becd8bf20';
-        sec-mem-ref-line = '130';
+        sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExDoxy.Dean::Email';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a4f0b940c5cc5758cb1e286b6b3021780';
-        sec-mem-ref-line = '6';
+        sec-mem-ref-line = '7';
         sec-mem-ref-name = 'ExDoxy.Person::Name';
     };
     }; /* sec-member */
@@ -776,7 +776,7 @@ _EnD_oF_dEf_TeXt_;
 = "example@uni.edu.co"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '130';
+      sec-mem-desc-line = '134';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -785,7 +785,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a67dd0a7969d70421a662324f2fb50d28';
-        sec-mem-ref-line = '131';
+        sec-mem-ref-line = '135';
         sec-mem-ref-name = 'ExDoxy.Dean::Dean';
     };
     }; /* sec-member */
@@ -805,7 +805,7 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '129';
+      sec-mem-desc-line = '133';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -815,7 +815,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '127';
+  cp-fileline  = '131';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -917,57 +917,6 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '6';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referencedby = {
-        sec-mem-ref-id = '_program_8cs_1a66ac9b694e616de7d4c2ffcd9c32223c';
-        sec-mem-ref-line = '160';
-        sec-mem-ref-name = 'ExDoxy.Administrative::Administrative';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = '_program_8cs_1a9cc3939171179d0f0b897178f3322938';
-        sec-mem-ref-line = '169';
-        sec-mem-ref-name = 'ExDoxy.Concierge::Concierge';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = '_program_8cs_1a67dd0a7969d70421a662324f2fb50d28';
-        sec-mem-ref-line = '131';
-        sec-mem-ref-name = 'ExDoxy.Dean::Dean';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = '_program_8cs_1a81a9169658a8470d4282a589d5e67f4f';
-        sec-mem-ref-line = '120';
-        sec-mem-ref-name = 'ExDoxy.Rector::Rector';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = '_program_8cs_1a41ad308f913f87fd961be3b5b9f5b6f2';
-        sec-mem-ref-line = '110';
-        sec-mem-ref-name = 'ExDoxy.Student::Student';
-    };
-      sec-mem-referencedby = {
-        sec-mem-ref-id = '_program_8cs_1a5d8073e03710d3e1847c7cc0f7993095';
-        sec-mem-ref-line = '142';
-        sec-mem-ref-name = 'ExDoxy.Teacher::Teacher';
-    };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'property';
-      sec-mem-id   = 'class_ex_doxy_1_1_person_1a9646bc0e7cf200754f746796da0233de';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-int
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'DNI';
-      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= 10000000
-_EnD_oF_dEf_TeXt_;
-      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
       sec-mem-desc-line = '7';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -977,40 +926,91 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a66ac9b694e616de7d4c2ffcd9c32223c';
-        sec-mem-ref-line = '160';
+        sec-mem-ref-line = '164';
         sec-mem-ref-name = 'ExDoxy.Administrative::Administrative';
     };
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a9cc3939171179d0f0b897178f3322938';
-        sec-mem-ref-line = '169';
+        sec-mem-ref-line = '174';
         sec-mem-ref-name = 'ExDoxy.Concierge::Concierge';
     };
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a67dd0a7969d70421a662324f2fb50d28';
-        sec-mem-ref-line = '131';
+        sec-mem-ref-line = '135';
         sec-mem-ref-name = 'ExDoxy.Dean::Dean';
     };
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a81a9169658a8470d4282a589d5e67f4f';
-        sec-mem-ref-line = '120';
+        sec-mem-ref-line = '124';
         sec-mem-ref-name = 'ExDoxy.Rector::Rector';
     };
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a41ad308f913f87fd961be3b5b9f5b6f2';
-        sec-mem-ref-line = '110';
+        sec-mem-ref-line = '114';
         sec-mem-ref-name = 'ExDoxy.Student::Student';
     };
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a5d8073e03710d3e1847c7cc0f7993095';
-        sec-mem-ref-line = '142';
+        sec-mem-ref-line = '146';
+        sec-mem-ref-name = 'ExDoxy.Teacher::Teacher';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'property';
+      sec-mem-id   = 'class_ex_doxy_1_1_person_1a9646bc0e7cf200754f746796da0233de';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'DNI';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 10000000
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
+      sec-mem-desc-line = '8';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_program_8cs_1a66ac9b694e616de7d4c2ffcd9c32223c';
+        sec-mem-ref-line = '164';
+        sec-mem-ref-name = 'ExDoxy.Administrative::Administrative';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_program_8cs_1a9cc3939171179d0f0b897178f3322938';
+        sec-mem-ref-line = '174';
+        sec-mem-ref-name = 'ExDoxy.Concierge::Concierge';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_program_8cs_1a67dd0a7969d70421a662324f2fb50d28';
+        sec-mem-ref-line = '135';
+        sec-mem-ref-name = 'ExDoxy.Dean::Dean';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_program_8cs_1a81a9169658a8470d4282a589d5e67f4f';
+        sec-mem-ref-line = '124';
+        sec-mem-ref-name = 'ExDoxy.Rector::Rector';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_program_8cs_1a41ad308f913f87fd961be3b5b9f5b6f2';
+        sec-mem-ref-line = '114';
+        sec-mem-ref-name = 'ExDoxy.Student::Student';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = '_program_8cs_1a5d8073e03710d3e1847c7cc0f7993095';
+        sec-mem-ref-line = '146';
         sec-mem-ref-name = 'ExDoxy.Teacher::Teacher';
     };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '4';
+  cp-fileline  = '5';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+Base class for student and worker class.
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -1152,7 +1152,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'email';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '120';
+      sec-mem-desc-line = '124';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1161,17 +1161,17 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a9646bc0e7cf200754f746796da0233de';
-        sec-mem-ref-line = '7';
+        sec-mem-ref-line = '8';
         sec-mem-ref-name = 'ExDoxy.Person::DNI';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a86affc8402c468958c5e41d59a9edd38';
-        sec-mem-ref-line = '119';
+        sec-mem-ref-line = '123';
         sec-mem-ref-name = 'ExDoxy.Rector::Email';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a4f0b940c5cc5758cb1e286b6b3021780';
-        sec-mem-ref-line = '6';
+        sec-mem-ref-line = '7';
         sec-mem-ref-name = 'ExDoxy.Person::Name';
     };
     }; /* sec-member */
@@ -1191,7 +1191,7 @@ _EnD_oF_dEf_TeXt_;
 = "example@uni.edu.co"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '119';
+      sec-mem-desc-line = '123';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1200,13 +1200,13 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a81a9169658a8470d4282a589d5e67f4f';
-        sec-mem-ref-line = '120';
+        sec-mem-ref-line = '124';
         sec-mem-ref-name = 'ExDoxy.Rector::Rector';
     };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '117';
+  cp-fileline  = '121';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1317,7 +1317,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'email';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '110';
+      sec-mem-desc-line = '114';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1326,17 +1326,17 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a9646bc0e7cf200754f746796da0233de';
-        sec-mem-ref-line = '7';
+        sec-mem-ref-line = '8';
         sec-mem-ref-name = 'ExDoxy.Person::DNI';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a1a23884c8916d0aeea04d2547f367230';
-        sec-mem-ref-line = '105';
+        sec-mem-ref-line = '109';
         sec-mem-ref-name = 'ExDoxy.Student::Email';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a4f0b940c5cc5758cb1e286b6b3021780';
-        sec-mem-ref-line = '6';
+        sec-mem-ref-line = '7';
         sec-mem-ref-name = 'ExDoxy.Person::Name';
     };
     }; /* sec-member */
@@ -1347,7 +1347,7 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-kind = 'property';
       sec-mem-id   = 'class_ex_doxy_1_1_student_1a2ccfc74925bf7b6e248ce0610405902c';
       sec-mem-virt = normal;
-      sec-mem-prot = public;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 double
 _EnD_oF_dEf_TeXt_;
@@ -1356,7 +1356,7 @@ _EnD_oF_dEf_TeXt_;
 = 0.0
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '103';
+      sec-mem-desc-line = '107';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1365,7 +1365,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a0ae7b47e496c39e738964decc1687448';
-        sec-mem-ref-line = '148';
+        sec-mem-ref-line = '152';
         sec-mem-ref-name = 'ExDoxy.Teacher::Qualify';
     };
     }; /* sec-member */
@@ -1382,7 +1382,7 @@ _EnD_oF_dEf_TeXt_;
 = 0.0
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '104';
+      sec-mem-desc-line = '108';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1403,7 +1403,7 @@ _EnD_oF_dEf_TeXt_;
 = "example@uni.edu.co"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '105';
+      sec-mem-desc-line = '109';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1412,7 +1412,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a41ad308f913f87fd961be3b5b9f5b6f2';
-        sec-mem-ref-line = '110';
+        sec-mem-ref-line = '114';
         sec-mem-ref-name = 'ExDoxy.Student::Student';
     };
     }; /* sec-member */
@@ -1420,7 +1420,7 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-kind = 'property';
       sec-mem-id   = 'class_ex_doxy_1_1_student_1a09af3581a894409466e5c9e8603434db';
       sec-mem-virt = normal;
-      sec-mem-prot = public;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 List< string >
 _EnD_oF_dEf_TeXt_;
@@ -1429,7 +1429,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<string>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '106';
+      sec-mem-desc-line = '110';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1441,7 +1441,7 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-kind = 'property';
       sec-mem-id   = 'class_ex_doxy_1_1_student_1a5d2e7456bfc46cb02e4b0efb52535237';
       sec-mem-virt = normal;
-      sec-mem-prot = public;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 List< string >
 _EnD_oF_dEf_TeXt_;
@@ -1450,7 +1450,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<string>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '107';
+      sec-mem-desc-line = '111';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1462,7 +1462,7 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-kind = 'property';
       sec-mem-id   = 'class_ex_doxy_1_1_student_1ac84b7d83330dafa2e1a508a9fb5d6f5f';
       sec-mem-virt = normal;
-      sec-mem-prot = public;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 List< string >
 _EnD_oF_dEf_TeXt_;
@@ -1471,7 +1471,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<string>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '108';
+      sec-mem-desc-line = '112';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1481,7 +1481,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '101';
+  cp-fileline  = '105';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1549,7 +1549,7 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '76';
+      sec-mem-desc-line = '80';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1570,7 +1570,7 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '77';
+      sec-mem-desc-line = '81';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1591,7 +1591,7 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '78';
+      sec-mem-desc-line = '82';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1612,7 +1612,7 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '79';
+      sec-mem-desc-line = '83';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1633,7 +1633,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<string>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '80';
+      sec-mem-desc-line = '84';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1643,7 +1643,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '74';
+  cp-fileline  = '78';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1700,7 +1700,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'email';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '142';
+      sec-mem-desc-line = '146';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1709,17 +1709,17 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a9646bc0e7cf200754f746796da0233de';
-        sec-mem-ref-line = '7';
+        sec-mem-ref-line = '8';
         sec-mem-ref-name = 'ExDoxy.Person::DNI';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a43c5ca09ff180eb1b1fd548525009132';
-        sec-mem-ref-line = '140';
+        sec-mem-ref-line = '144';
         sec-mem-ref-name = 'ExDoxy.Teacher::Email';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a4f0b940c5cc5758cb1e286b6b3021780';
-        sec-mem-ref-line = '6';
+        sec-mem-ref-line = '7';
         sec-mem-ref-name = 'ExDoxy.Person::Name';
     };
     }; /* sec-member */
@@ -1739,7 +1739,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'myStudent';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '148';
+      sec-mem-desc-line = '152';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1748,7 +1748,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_program_8cs_1a2ccfc74925bf7b6e248ce0610405902c';
-        sec-mem-ref-line = '103';
+        sec-mem-ref-line = '107';
         sec-mem-ref-name = 'ExDoxy.Student::Qualify';
     };
     }; /* sec-member */
@@ -1768,7 +1768,7 @@ _EnD_oF_dEf_TeXt_;
 = "example@uni.edu.co"
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '140';
+      sec-mem-desc-line = '144';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1777,7 +1777,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a5d8073e03710d3e1847c7cc0f7993095';
-        sec-mem-ref-line = '142';
+        sec-mem-ref-line = '146';
         sec-mem-ref-name = 'ExDoxy.Teacher::Teacher';
     };
     }; /* sec-member */
@@ -1794,7 +1794,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<Curse>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '141';
+      sec-mem-desc-line = '145';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1804,7 +1804,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '138';
+  cp-fileline  = '142';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1880,96 +1880,6 @@ class = {
   cp-id     = 'class_ex_doxy_1_1_university';
   cp-name   = 'ExDoxy::University';
   cp-section = {
-    sec-kind = 'public-func';
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'class_ex_doxy_1_1_university_1ab0886d5d6b4631fd0558c1f98902ab37';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'AddStudent';
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-Student
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'newStudent';
-      }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '22';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_program_8cs_1aa9a39e99fd506f3a94ec4d51e368bf6b';
-        sec-mem-ref-line = '18';
-        sec-mem-ref-name = 'ExDoxy.University::Students';
-    };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'class_ex_doxy_1_1_university_1a6303f4ff119f7a8f4195406ee6ea2d8c';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'AddWorker';
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-Worker
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'newWorker';
-      }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '26';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_program_8cs_1a8909d3d3c4c515be7f936a8e1aa6df9d';
-        sec-mem-ref-line = '19';
-        sec-mem-ref-name = 'ExDoxy.University::Workers';
-    };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'class_ex_doxy_1_1_university_1a22a9412e2de87b16997e10cf14c2dabc';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'AddCareer';
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-Career
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'newCareer';
-      }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '30';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_program_8cs_1a2f9ab2055bb9d37a277a2a722ee19ffc';
-        sec-mem-ref-line = '20';
-        sec-mem-ref-name = 'ExDoxy.University::Careers';
-    };
-    }; /* sec-member */
-  }; /* cp-section */
-  cp-section = {
     sec-kind = 'property';
     sec-member = {
       sec-mem-kind = 'property';
@@ -1984,7 +1894,7 @@ _EnD_oF_dEf_TeXt_;
 = ""
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '17';
+      sec-mem-desc-line = '19';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -1996,7 +1906,7 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-kind = 'property';
       sec-mem-id   = 'class_ex_doxy_1_1_university_1aa9a39e99fd506f3a94ec4d51e368bf6b';
       sec-mem-virt = normal;
-      sec-mem-prot = public;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 List< Student >
 _EnD_oF_dEf_TeXt_;
@@ -2005,7 +1915,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<Student>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '18';
+      sec-mem-desc-line = '20';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2014,7 +1924,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1ab0886d5d6b4631fd0558c1f98902ab37';
-        sec-mem-ref-line = '22';
+        sec-mem-ref-line = '24';
         sec-mem-ref-name = 'ExDoxy.University::AddStudent';
     };
     }; /* sec-member */
@@ -2031,7 +1941,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<Worker>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '19';
+      sec-mem-desc-line = '21';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2040,7 +1950,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a6303f4ff119f7a8f4195406ee6ea2d8c';
-        sec-mem-ref-line = '26';
+        sec-mem-ref-line = '28';
         sec-mem-ref-name = 'ExDoxy.University::AddWorker';
     };
     }; /* sec-member */
@@ -2057,7 +1967,7 @@ _EnD_oF_dEf_TeXt_;
 = new List<Career>()
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '20';
+      sec-mem-desc-line = '22';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2066,13 +1976,103 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-referencedby = {
         sec-mem-ref-id = '_program_8cs_1a22a9412e2de87b16997e10cf14c2dabc';
-        sec-mem-ref-line = '30';
+        sec-mem-ref-line = '32';
         sec-mem-ref-name = 'ExDoxy.University::AddCareer';
     };
     }; /* sec-member */
   }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_ex_doxy_1_1_university_1ab0886d5d6b4631fd0558c1f98902ab37';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'AddStudent';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Student
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'newStudent';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
+      sec-mem-desc-line = '24';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_program_8cs_1aa9a39e99fd506f3a94ec4d51e368bf6b';
+        sec-mem-ref-line = '20';
+        sec-mem-ref-name = 'ExDoxy.University::Students';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_ex_doxy_1_1_university_1a6303f4ff119f7a8f4195406ee6ea2d8c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'AddWorker';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Worker
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'newWorker';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
+      sec-mem-desc-line = '28';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_program_8cs_1a8909d3d3c4c515be7f936a8e1aa6df9d';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'ExDoxy.University::Workers';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_ex_doxy_1_1_university_1a22a9412e2de87b16997e10cf14c2dabc';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'AddCareer';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+Career
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'newCareer';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
+      sec-mem-desc-line = '32';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_program_8cs_1a2f9ab2055bb9d37a277a2a722ee19ffc';
+        sec-mem-ref-line = '22';
+        sec-mem-ref-name = 'ExDoxy.University::Careers';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '15';
+  cp-fileline  = '17';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2135,16 +2135,16 @@ class = {
       sec-mem-kind = 'property';
       sec-mem-id   = 'class_ex_doxy_1_1_worker_1ac6a41ae8d29804a06d255e5431a69298';
       sec-mem-virt = normal;
-      sec-mem-prot = public;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 double
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'Salary';
       sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
-= 0.0
+= 800.0
 _EnD_oF_dEf_TeXt_;
       sec-mem-desc-file = 'E:/C#/UNI/ExDoxy/Program.cs';
-      sec-mem-desc-line = '12';
+      sec-mem-desc-line = '14';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2154,9 +2154,9 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'E:/C#/UNI/ExDoxy/Program.cs';
-  cp-fileline  = '10';
+  cp-fileline  = '12';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+Basic class for teachers, administrative staff, cleaning, security, dean, etc.
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
 
